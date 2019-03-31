@@ -1,0 +1,67 @@
+extends layout
+
+block content
+  // Es importante siempre poner el block content para que salga dentro del layout, al parecer esto une o conecta con el layout
+  #page.container
+    .row
+      .col-md-5
+        #content
+          .title
+            h2 Lo que hacemos
+            span.byline Phasellus nec erat sit amet nibh pellentesque congue
+          p
+            | Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. Pellentesque adipiscing purus ac magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna.
+      .col-md-7#sidebar
+        img(src='images/pic02.jpg', alt='')
+
+
+  #portfolio.container
+    .row
+      .col-md-12
+        h1 Nuestro Equipo de trabajo
+
+  #Equipo-trabajo.container
+    .row
+      .col-md-3  
+        #column1
+          .title
+            h2 Dolores 
+            h2 lacus
+          a.image.image-full(href='#')
+            img(src='images/pic02.jpg', alt='')
+          p
+            | Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.
+          //a.icon.button(href='#') Read More
+
+      .col-md-3 
+        #column2
+          .title
+            h2 Fusce 
+            h2 ultrices
+          a.image.image-full(href='#')
+            img(src='images/pic03.jpg', alt='')
+          p
+            | Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.
+          //a.icon.button(href='#') Read More
+      
+      .col-md-3 
+        #column3
+          .title
+            h2 Etiam 
+            h2 posuere
+          a.image.image-full(href='#')
+            img(src='images/pic04.jpg', alt='')
+          p
+            | Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.
+          //a.icon.button(href='#') Read More
+      
+      .col-md-3 
+        #column4
+          .title
+            h2 Mauris 
+            h2 vulputate
+          a.image.image-full(href='#')
+            img(src='images/pic05.jpg', alt='')
+          p
+            | Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.
+          //a.icon.button(href='#') Read More

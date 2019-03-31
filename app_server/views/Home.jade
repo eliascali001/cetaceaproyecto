@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  // Es importante siempre poner el block content para que salga dentro del layout, al parecer esto une o conecta con el layout
+  .wrapper
+      section.main
+        .main-content
+          span.hello Hello Everyone!
+          h1.main-title
+            | We are Cetaceos Ecuador
+            br
+            | 		A project made up of professors & students
+          .social
+            a(href='#')
+              img(alt='', src='/images/twitter.svg')
+            a(href='#')
+              img(alt='', src='/images/instagram.svg')
+            a(href='#')
+              img(alt='', src='/images/dribbble.svg')
+            a(href='#')
+              img(alt='', src='/images/send.svg')
+  .container-fluid.-slide-left(style='background-color: #f9f9f9; opacity: 0.9; max-width:100vw; padding:0;')
+    .row(style='background-color: #f9f9f9; opacity: 0.9; max-width:100vw; padding:0;')
+      .col-md-12#Our-job
+        a(style="font-size: 50px; font-weight: normal; color: #1b5270; text-align: left;") Our Job
+        br
+        p(style="color: #828282; font-size: 20px;  font-weight: normal; text-align: left;")
+          | Using flag species such as whales, dolphins, sea turtles and sharks, project cetacea promotes ocean conservation and research. Project CETACEA looks to improve knowledge about cetaceans and other marine life in order to protect ocean and coastal ecosystems. 
+  .container-fluid#mapa
+    .row
+      .col-md-12
+

@@ -1,0 +1,7 @@
+.main {
+    background: url(../images/ballena3.jpg);
+    background-size: cover;
+    display: table;
+    width: 100%;
+    position: relative;
+}
